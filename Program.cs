@@ -16,9 +16,13 @@ namespace LineComparison
             {
                 Console.WriteLine("Both line are equals");
             }
+            if (line1.CompareTo(line2) > 0)
+            {
+                Console.WriteLine("Line1 is greater than Line2");
+            }
             else
             {
-                Console.WriteLine("Both line are not equals");
+                Console.WriteLine("Line1 is less than Line2");
             }
         }
     }
