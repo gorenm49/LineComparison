@@ -15,11 +15,11 @@ namespace LineComparison
             this.secondY = y2;
         }
 
-        public void CalculateLength()
+        public double CalculateLength()
         {
 
             double len = Math.Sqrt(Math.Pow(this.secondX - this.firstX,2) + Math.Pow(this.secondY - this.firstY,2));
-            Console.WriteLine(len);
+            return len;
         }
     }
 }
